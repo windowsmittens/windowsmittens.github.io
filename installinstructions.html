@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="images/favicon.ico"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install Instructions</title>
+</head>
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+  background-color: white; /* Background color of the navbar */
+  overflow: hidden; /* Clear floated elements inside the navbar */
+}
+
+/* Style the list items (menu items) */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left; /* Float list items horizontally */
+}
+
+/* Style the links (menu items) */
+.navbar a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px; /* Spacing around the link text */
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.navbar a:hover {
+  background-color: #4683B7;
+  color: white;
+   border-radius: 10px
+  }
+}
+.image-align-left {
+  position: absolute;
+  left: 75px;
+  top: 500px;
+}
+.image-align-right {
+  position: absolute;
+  right: 75px;
+  top: 100px;
+}
+
+.text_right {
+    text-align: right;
+  }
+  kbd  {
+    display: inline-block;
+    margin: 0 0.1em;
+    padding: 0.1em 0.6em;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI Adjusted","Segoe UI","Liberation Sans",sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #232629;
+    text-shadow: 0 1px 0 white;
+    background-color: #e3e6e8;
+    border: 1px solid #9fa6ad;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #0c0d0e26, inset 0 1px 0 0 white;
+    overflow-wrap: break-word;
+}
+</style>
+<body>
+<div class="navbar">
+  <ul>
+    <li><a href="https://windowsmittens.github.io">Home</a></li>
+    <li><a href="download.html">Download</a></li>
+    <li><a href="https://discord.gg/XuMQayWuYM">Discord</a></li>
+	<li><a href="installinstructions.html">Install Instructions</a></li>
+  </ul>
+</div>
+<p>
+<img src="images/install/rufus.png" alt="rufus window (reload if no show!!!)" class="image-align-right">
+<h1>Physical Hardware Steps</h1> 
+<b>1.</b> <a href="download.html">Download</a> the ISO File and <a href="https://rufus.ie">Rufus</a>
+<br>
+<b>2.</b> Look to the right and click on "SELECT" and browse to the ISO.
+<br>
+<b>3.</b> Make sure to click "MBR" for BIOS, or "GPT" for UEFI, to find this, press <kbd>Win</kbd> + <kbd>R</kbd> and type in "msinfo32.exe", press <kbd>Enter</kbd>. <br> Now, check for "BIOS Mode" and to the right, you will see your boot firmware. <a href="/images/install/mscfg.png">Check here if you're having trouble.</a>
+</p>
+</body>
+</html>
+
